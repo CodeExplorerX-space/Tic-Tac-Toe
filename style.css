@@ -1,0 +1,38 @@
+body {
+    background-color: lightslategray;
+    text-align: center;
+    overflow: hidden;
+}
+
+h1{
+    color: white;
+}
+
+#board {
+    margin: 50px auto;
+    width: 320px;
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cell {
+    height: 100px;
+    width: 100px;
+    border: 1px solid red;
+    background: #ffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 36px;
+    font-weight: 600;
+}
+
+button {
+    padding: 10px 20px;
+    color: beige;
+    background: rgb(23, 3, 43);
+    cursor: pointer;
+}
+    
